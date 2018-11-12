@@ -1,0 +1,81 @@
+#top_menu{
+    font: bold 15px "Times New Roman";
+    letter-spacing: .1em;
+}
+
+#top_menu ul{
+    list-style: none;
+    display: inline;
+}
+
+#top_menu ul li{
+    float: left;
+}
+
+#top_menu ul li a{ 
+    line-height: 20px;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in;
+    color: white;
+}
+
+#top_menu ul li a:hover{
+    background: rgba(0, 0, 0, 0.28)
+}
+
+#menuwrapper{
+    background:  #2c518d;
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    overflow: hidden;
+    margin-bottom: 10px;
+    top: 0;
+    left: 0;
+}
+
+#menuwrap{
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.headerwrapper{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.header-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 150px;
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    padding-top: 50px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.cover{
+    height: 500px;
+    background: url(../img/__murakumo_kantai_collection_drawn_by_fujita_condor__9b5825b75daead007ee14ad1066815a9.jpg) no-repeat center;
+    color: #ffffff;
+    background-size: 100%;
+    text-align: center; 
+}
+
+@media only screen and (max-width: 1366px){
+    .cover{
+        height: 355px;
+    }
+    #top_menu{
+        font: bold 15px "Times New Roman";
+        letter-spacing: .1em;
+    }
+}

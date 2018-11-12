@@ -1,0 +1,171 @@
+.img2{ 
+  padding: 80px 0px;
+  background-color: rgba(117, 117, 117, 0.1)
+}
+
+.mySlides{
+    display: none;
+}
+
+.mySlides img{
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.slideshow-container{
+  max-width: 90%;
+  height: fit-content;
+  position: relative;
+  margin: auto;
+}
+
+.prenextcontain{
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  bottom: 0;
+}
+
+.prenextcontain:before, .prenextcontain:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.prev, .next {
+  cursor: pointer;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+  color: rgb(117, 117, 117);
+}
+
+.captiontextcontain{
+  color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.textcaption{
+  position: relative;
+  padding: 335px 80px 0;
+  width: 100%;
+}
+
+.textcaption h1{
+  font-size: 35px;
+}
+
+.textcaption p{
+  font-size: 25px;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+ .dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: -27.5px 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .boxslides:hover{
+  border-bottom: #717171 1px solid;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.boxlink_slide a{
+  font: bold 20px "Time New Roman";
+}
+
+.boxlink_slide a:link, .boxlink_slide a:visited{
+  color: white;
+  padding: 12px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #1a4891;
+}
+
+.boxlink_slide a:hover, .boxlink_slide a:active{
+  background-color: #4CAF50;
+  color: white;
+  transition: all 0.2s ease-in;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 1366px){
+  .img2{
+    padding: 57px 0px;
+  }
+  
+  .textcaption{
+    padding: 238px 57px 0;
+  }
+
+  .prev, .next{
+    padding: 10.5px;
+    font-size: 18px;
+  }
+
+  .textcaption h1{
+    font-size: 25px;
+  }
+
+  .textcaption p{
+    font-size: 18px;
+  }
+
+  .dot{
+    height: 10.5px;
+    width: 10.5px;
+    margin: -16.875px 5px;
+  }
+
+  .boxlink_slide a{
+    font-size: 14px;
+  }
+
+  .boxlink_slide a:link, .boxlink_slide a:visited{
+    padding: 8.5px 32px;
+  }
+}
