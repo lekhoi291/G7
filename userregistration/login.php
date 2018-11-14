@@ -36,7 +36,7 @@
             </div>
             <div class="group">
                 <label for="pass" class="label">Password</label>
-                <input id="pass" type="password" class="input" data-type="password" required>
+                <input id="pass" name="password" type="password" class="input" data-type="password" required>
             </div>
             <div class="group">
                 <input type="submit" class="button" value="Sign In">
@@ -51,7 +51,7 @@
             </div>
             <div class="group">
                 <label for="user" class="label">Password</label>
-                <input id="pass" type="password" class="input" data-type="password" required>
+                <input id="pass" name="password" type="password" class="input" data-type="password" required>
             </div>
             <div class="group">
 				<input type="submit" class="button" value="Sign Up">
