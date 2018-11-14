@@ -1,12 +1,10 @@
 <html>
 <head>
-        <title> User Login</title>
-        <link rel="stylesheet" type="text/css"
-        hrel="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        >
-        <link rel="stylesheet" type="text/css" href="mainbody.css">
-        <link rel="stylesheet" type="text/css" href="stylelogin.css">
-        <link rel="stylesheet" type="text/css" href="loginheader.css">
+    <title> User Login</title>
+    <link rel="stylesheet" type="text/css" href="mainbody.css">
+    <link rel="stylesheet" type="text/css" href="loginheader.css">
+    <link rel="stylesheet" type="text/css" href="signinsignup.css">
+    <link rel="icon" href="../img/Polar_Bear-512.png">
 </head>
 <body>
 <div class="loginheadercontain">
@@ -23,42 +21,43 @@
         </div>
 </div>
 
-<div class="container">
-    <div class="login-box">
-    <section class="column">
-    <div>
-        <h2> Login</h2>
+<div class="login-wrap">
+    <div class="login-html">
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+        <label for="tab-1" class="tab">Sign In</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up">
+        <label for="tab-2" class="tab">Sign Up</label>
+        <div class="login-form">
+        <div class="sign-in-htm">
         <form action="validation.php" method="post">
-          <div class="form-group">
-            <label>Username</label>
-            <input type="text" name="user" class="form-control" required>
+            <div class="group">
+                <label for="user" class="label">Username</label>
+                <input id="user" type="text" name="user" class="input" required>
             </div>
-          <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control" required>
+            <div class="group">
+                <label for="pass" class="label">Password</label>
+                <input id="pass" type="password" class="input" data-type="password" required>
             </div>
-            <button type="submit" class="btn btn-primary"> Login</button>
+            <div class="group">
+                <input type="submit" class="button" value="Sign In">
+            </div>
         </form>
     </div>
-    <div>
-        <h2> Register</h2>
+    <div class="sign-up-htm">
         <form action="registration.php" method="post">
-          <div class="form-group">
-            <label>Username</label>
-            <input type="text" name="user" class="form-control" required>
+            <div class="group">
+                <label for="user" class="label">Username</label>
+                <input id="user" type="text" name="user" class="input" required>
             </div>
-          <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control" required>
+            <div class="group">
+                <label for="user" class="label">Password</label>
+                <input id="pass" type="password" class="input" data-type="password" required>
             </div>
-            <button type="submit" class="btn btn-primary"> Register</button>
+            <div class="group">
+				<input type="submit" class="button" value="Sign Up">
+			</div>
         </form>
-    </div>
-</section>
-    
+    </div>    
 </div>
-
-</div>
-
 </body>
 </html>
