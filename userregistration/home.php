@@ -6,11 +6,11 @@ if (!isset($_SESSION['username'])){
 }
 ?>
 
-<html>
+<!-- <html>
 <head>
     <title> Home Page</title>
     <link rel="stylesheet" type="text/css"
-        hrel="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         >
 
 </head>
@@ -22,4 +22,4 @@ if (!isset($_SESSION['username'])){
 </div>
 
 </body>
-</html>
+</html> -->

@@ -8,11 +8,11 @@
 </head>
 <body>
 <div class="loginheadercontain">
-        <a href="../Index.html"><div class="dotcontain backtohomepage">
+        <a href="../Index.php"><div class="dotcontain backtohomepage">
             <img src="047_-_homepage-512.png">
         </div></a>
         <div class="backtohomepage">
-            <a href="../Index.html">Homepage</a>
+            <a href="../Index.php">Homepage</a>
         </div>
     </div>
     <div class="containerlogin">
