@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 session_start();
 if (!isset($_SESSION['username'])){
@@ -10,7 +10,7 @@ if (!isset($_SESSION['username'])){
 <head>
     <title> Home Page</title>
     <link rel="stylesheet" type="text/css"
-        hrel="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         >
 
 </head>
@@ -22,4 +22,4 @@ if (!isset($_SESSION['username'])){
 </div>
 
 </body>
-</html>
+</html> -->
