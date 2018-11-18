@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if (!isset($_SESSION['username'])){
+    // header('location:userregistration/login.php');
+}
+?>
+
 <html>
     <head>
         <title>About</title>

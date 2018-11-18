@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if (!isset($_SESSION['username'])){
+    // header('location:userregistration/login.php');
+}
+?>
+
 <html>
     <head>
         <title>Safer</title>
@@ -18,20 +24,25 @@
                     <div id="top_menu">
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../Index.php">G7 GROUP</a>
+                                <a href="../index.php">G7 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../Index.php#Service">Service</a>
+                                <a href="../index.php#Service">Service</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="about.html">About</a>
+                                <a href="about.php">About</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../map/map.html">Travel NOW</a>
-                            </li>
-                            <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../LoginandRegistration/Login.html">Log In</a>
-                            </li>
+                                <a href="../map/map.php">Travel NOW</a>
+                            <?php if (!isset($_SESSION['username'])) : ?>
+                                <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
+                                    <a href="../userregistration/login.php">Log In</a>
+                                </li>
+                            <?php else:?>
+                                <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
+                                    <a href="../userregistration/logout.php">Log Out</a>
+                                </li>
+                            <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="">Help Centre</a>
                             </li>

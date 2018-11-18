@@ -1,9 +1,7 @@
 <?php
 session_start();
-if (!isset($_SESSION['username'])){
-    // header('location:userregistration/login.php');
-}
 ?>
+
 <html>
     <head>
         <title>G7 GROUP</title>
@@ -29,11 +27,11 @@ if (!isset($_SESSION['username'])){
                                 <a href="#Service">Service</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="about/about.html">About</a>
+                                <a href="about/about.php">About</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="map/map.html">Travel NOW</a>
-                            <?php if (!isset($_SESSION['username'])) : ?>
+                                <a href="map/map.php">Travel NOW</a> 
+                            <?php if (!isset($_SESSION['username'])):?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
                                     <a href="userregistration/login.php">Log In</a>
                                 </li>
@@ -74,12 +72,12 @@ if (!isset($_SESSION['username'])){
                             <section class="column">
                                 <div>
                                     <div class="boxlink_travel_now">
-                                        <a href="map/map.html">Travel NOW</a>
+                                        <a href="map/map.php">Travel NOW</a>
                                     </div>
                                 </div>
                                 <div style="margin-left: 5%;">
                                     <div class="boxlink_travel_now">
-                                        <a href="about/about.html">Learn more</a>
+                                        <a href="about/about.php">Learn more</a>
                                     </div>
                                 </div>
                             </section>
@@ -141,7 +139,7 @@ if (!isset($_SESSION['username'])){
                             <h1>Our promise towards a SAFER EVERYDAY</h1>
                             <p>“Respect the unexpected.  Think through your risks.”</p>
                             <div class="boxlink_travel_now">
-                                <a href="">Learn More</a>
+                                <a href="about/safer.php">Learn More</a>
                             </div>
                         </div>
                         <div class="img3">
@@ -179,7 +177,7 @@ if (!isset($_SESSION['username'])){
                             </section>
                             <section class="column texta_blue">
                                 <div>
-                                    <a href="about/about.html">Learn More</a>
+                                    <a href="about/about.php">Learn More</a>
                                 </div>
                                 <div>
                                     <a href="about/news.html">Learn More</a>
@@ -214,7 +212,7 @@ if (!isset($_SESSION['username'])){
                     </div>
                     <div class="tf3 texta_many">
                         <h1>COMPANY</h1>
-                        <a href="about/about.html">About us</a><br><br>
+                        <a href="about/about.php">About us</a><br><br>
                         <a href="about/news.html">Newsroom</a><br><br>
                         <a href="about/blog.html">Blog</a><br><br>
                         <a href="">Careers</a><br><br>
