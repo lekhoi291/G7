@@ -1,71 +1,83 @@
 <html>
 <head>
-        <title> User Login</title>
-        <link rel="stylesheet" type="text/css"
-        hrel="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        >
-        <link rel="stylesheet" type="text/css" href="mainbody.css">
-        <link rel="stylesheet" type="text/css" href="stylelogin.css">
-        <link rel="stylesheet" type="text/css" href="loginheader.css">
+    <title> User Login</title>
+    <link rel="stylesheet" type="text/css" href="mainbody.css">
+    <link rel="stylesheet" type="text/css" href="loginheader.css">
+    <link rel="stylesheet" type="text/css" href="signinsignup.css">
+    <link rel="icon" href="../img/Polar_Bear-512.png">
 </head>
 <body>
 <div class="loginheadercontain">
-        <a href="../Index.html"><div class="dotcontain backtohomepage">
+        <a href="../Index.php"><div class="dotcontain backtohomepage">
             <img src="047_-_homepage-512.png">
         </div></a>
         <div class="backtohomepage">
-            <a href="../Index.html">Homepage</a>
+            <a href="../Index.php">Homepage</a>
         </div>
     </div>
-    <div class="containerlogin">
-        <div class="avatarcontainer avatar">
-            <img src="avatar.jpg">
-        </div>
-</div>
-
-<div class="container">
-    <div class="login-box">
-    <section class="column">
-    <div>
-        <h2> Login</h2>
-        <form action="validation.php" method="post">
-          <div class="form-group">
-            <label>Username</label>
-            <input type="text" name="user" class="form-control" required>
-            </div>
-          <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control" required>
-            </div>
-            <button type="submit" class="btn btn-primary"> Login</button>
-            <p class="message">Create an account? <a href="#signup">Register</a></p>
-        </form>
-    </div>
-    <div>
-        <h2> Register</h2>
-        <form action="registration.php" method="post">
-          <div class="form-group">
-            <label>Username</label>
-            <input type="text" name="user" class="form-control" required>
-            </div>
-          <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control" required>
-            </div>
-            <button type="submit" class="btn btn-primary"> Register</button>
-            <p class="message">Alreday Have an account? <a href="#login">Login</a></p>
-        </form>
-    </div>
-</section>
     
 </div>
 
-</div>
- <script src='https://code.jquery.com/jquery-3.3.1.js'></script>
-    <script>
-        $('.message a').click(function(){
-         $('form').animate({height:"toggle",opacity: "toggle"},"slow");
-        } )    
-    </script>
+<div class="login-wrap">
+    <div class="login-html">
+        <div class="containerlogin">
+        <div class="avatarcontainer avatar">
+            <img src="avatar.jpg">
+        </div>
+    </div>
+        <div>
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked>
+        <label for="tab-1" class="tab">Sign In</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up">
+        <label for="tab-2" class="tab">Sign Up</label>
+        <div class="login-form">
+            <div class="sign-in-htm">
+                <form action="validation.php" method="post">
+                <div class="group">
+                    <label for="user" class="label">Username</label>
+                    <input id="user" type="text" name="user" class="input" placeholder="Enter Your Name" required>
+                </div>
+                <div class="group">
+                    <label for="pass" class="label">Password</label>
+                    <input id="pass" name="password" type="password" class="input" data-type="password" placeholder="Enter Your Password" required>
+                </div>
+                <div class="group">
+                    <input type="submit" class="button" value="Sign In">
+                </div>
+                <div class="hr"></div>
+                <div class="foot-lnk">
+				    <label for="tab-2">Let's join our community!</a>
+			    </div>
+                </form>
+            </div>
+        <div class="sign-up-htm">
+            <form action="registration.php" method="post">
+                <div class="group">
+                    <label for="user" class="label">Username</label>
+                    <input id="user" type="text" name="user" class="input" placeholder="Enter Your Name" required>
+                </div>
+                <div class="group">
+                    <label for="user" class="label">Password</label>
+                    <input id="pass" name="password" type="password" class="input" data-type="password" placeholder="Enter Your Password"required>
+                </div>
+                <div class="group">
+                    <label for="user" class="label">Phone number</label>
+                    <input type="tel" name="phone" class="input"placeholder="Enter Your Phone Number">
+                </div>
+                <div class="group">
+                    <label for="user" class="label">Email</label>
+                    <input type="email" name="mail" class="input" placeholder="Enter Your Email">
+                </div>
+                <div class="group">
+				    <input type="submit" class="button" value="Sign Up">
+                </div>
+                <div class="hr"></div>
+                <div class="foot-lnk">
+				    <label for="tab-1">Already Member?</a>
+			    </div>
+            </form>
+        </div>
+        </div>    
+    </div>
 </body>
 </html>
