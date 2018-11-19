@@ -59,7 +59,7 @@ if (!isset($_SESSION['username'])){
         <div class="container">
             <div class="mainbody">
                 <div class="bodycontain1 textsafe1">
-                    <p>At Grab, our mission is to create a safer 
+                    <p>At G7, our mission is to create a safer 
                     everyday for our customers and partners, as well as the 
                     community as a whole.</p>
                     <h1>Everyday app. Everyday safety.</h1>
@@ -121,7 +121,7 @@ if (!isset($_SESSION['username'])){
                             <img src="../img/729352-200.png">
                             <h1>Code of Conduct</h1>
                             <p>Conditions that apply to any 
-                            usage<br> of Grab’s services.</p>
+                            usage<br> of G7’s services.</p>
                         </div>
                         <div></div>
                     </section>
@@ -242,7 +242,7 @@ if (!isset($_SESSION['username'])){
                                 <label for="tab-7">Emergency Button</label>
                                 <div class="tab-content">
                                     <p>At any time during a ride, passengers can press the 
-                                    emergency button in the Grab app to notify security or 
+                                    emergency button in the G7 app to notify security or 
                                     their emergency contacts.</p>
                                 </div>
                             </div>
