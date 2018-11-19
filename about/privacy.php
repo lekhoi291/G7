@@ -275,7 +275,6 @@ if (!isset($_SESSION['username'])){
                         <a href="">G7 Freight</a><br><br>
                         <a href="">G7 Motorbike</a><br><br>
                         <a href="">G7 for Business</a><br><br>
-                        <a href="">G7 Air</a>
                     </div>
                 </section>
             </div>
@@ -286,7 +285,7 @@ if (!isset($_SESSION['username'])){
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
-                        <p><a href="about/privacy.html">Privacy</a>
+                        <p><a href="about/privacy.php">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>

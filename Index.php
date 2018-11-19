@@ -123,12 +123,24 @@ session_start();
                                 </div>
                             </div>
                         </div>
+                        <div class="mySlides fade">
+                            <img src="img/__saratoga_kantai_collection_drawn_by_fujita_condor__678a622cc85f71efd8ff2e77b4ca80ad.jpg">
+                            <div class="captiontextcontain">
+                                <div class="textcaption">
+                                <h1>G7 for Business</h1>
+                                <p>How teams help move people and guests.<br>
+                                Everywhere your business needs to go.</p>
+                                <div class="boxlink_slide"><a href="">Learn More</a></div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="prenextcontain" style="width: 100%">
                             <a class="prev" style="float:left;" onclick="plusSlides(-1)">&#10094;</a>
                             <a class="next" style="float:right;" onclick="plusSlides(1)">&#10095;</a>
                             <span class="dot" onclick="currentSlide(1)"></span> 
                             <span class="dot" onclick="currentSlide(2)"></span> 
                             <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
                         </div>
                     </div>
                     <script src="Js/slideimage1.js"></script>
@@ -224,7 +236,6 @@ session_start();
                         <a href="">G7 Freight</a><br><br>
                         <a href="">G7 Motorbike</a><br><br>
                         <a href="">G7 for Business</a><br><br>
-                        <a href="">G7 Air</a>
                     </div>
                 </section>
             </div>

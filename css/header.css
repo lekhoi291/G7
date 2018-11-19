@@ -64,10 +64,11 @@
 
 .cover{
     height: 500px;
-    background: url(../img/__murakumo_kantai_collection_drawn_by_fujita_condor__9b5825b75daead007ee14ad1066815a9.jpg) no-repeat center;
+    background: url(../img/__after_hours_drawn_by_stag__a08d15d54ca901d5529a67a3de561cf4.jpg) no-repeat;
     color: #ffffff;
     background-size: 100%;
     text-align: center; 
+    background-position-y: 10%
 }
 
 @media only screen and (max-width: 1366px){
