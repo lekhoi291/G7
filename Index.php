@@ -19,6 +19,11 @@ session_start();
             <div id="menuwrapper">
                 <div id="menuwrap">
                     <div id="top_menu">
+                        <input type='checkbox'/>
+                        <label>
+                            <i class='icon-reorder'></i>
+                            <span>Navigation</span>
+                        </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="#movetop">G7 GROUP</a>
@@ -37,7 +42,18 @@ session_start();
                                 </li>
                             <?php else:?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                    <a href="userregistration/logout.php">Log Out</a>
+                                    <a>Welcome <?php echo $_SESSION['username']; ?></a>
+                                    <ul class="menus">
+                                        <li>
+                                            <a href="">Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Setting</a>
+                                        </li>
+                                        <li>
+                                            <a href="userregistration/logout.php">Log Out</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
@@ -123,12 +139,24 @@ session_start();
                                 </div>
                             </div>
                         </div>
+                        <div class="mySlides fade">
+                            <img src="img/__saratoga_kantai_collection_drawn_by_fujita_condor__678a622cc85f71efd8ff2e77b4ca80ad.jpg">
+                            <div class="captiontextcontain">
+                                <div class="textcaption">
+                                <h1>G7 for Business</h1>
+                                <p>How teams help move people and guests.<br>
+                                Everywhere your business needs to go.</p>
+                                <div class="boxlink_slide"><a href="">Learn More</a></div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="prenextcontain" style="width: 100%">
                             <a class="prev" style="float:left;" onclick="plusSlides(-1)">&#10094;</a>
                             <a class="next" style="float:right;" onclick="plusSlides(1)">&#10095;</a>
                             <span class="dot" onclick="currentSlide(1)"></span> 
                             <span class="dot" onclick="currentSlide(2)"></span> 
                             <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
                         </div>
                     </div>
                     <script src="Js/slideimage1.js"></script>
@@ -224,7 +252,6 @@ session_start();
                         <a href="">G7 Freight</a><br><br>
                         <a href="">G7 Motorbike</a><br><br>
                         <a href="">G7 for Business</a><br><br>
-                        <a href="">G7 Air</a>
                     </div>
                 </section>
             </div>

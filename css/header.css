@@ -1,25 +1,108 @@
 #top_menu{
-    font: bold 15px "Times New Roman";
+    font:bold 14px Arial;
     letter-spacing: .1em;
 }
 
-#top_menu ul{
+#top_menu ul, #top_menu li{
     list-style: none;
-    display: inline;
+    padding: 0 0;
+    margin: 0 auto;
 }
 
-#top_menu ul li{
+#top_menu li{
     float: left;
+    position: relative;
+    text-transform:uppercase;
+    font-weight:normal
 }
 
-#top_menu ul li a{ 
-    line-height: 20px;
-    padding: 15px 20px;
-    display: block;
-    text-decoration: none;
+#top_menu a{ 
+    display:block;
+    line-height:50px;
+    padding: 0px 20px;
+    text-decoration:none;
     text-shadow: 0 1px 0 rgba(0,0,0,0.2);
     transition: all 0.3s ease-in;
     color: white;
+    cursor:pointer;
+}
+
+#top_menu input{
+    display:none;
+    margin:0 0;
+    padding:0 0;
+    width:80px;
+    height:30px;
+    opacity:0;
+    cursor:pointer;
+}
+
+#top_menu label{
+    font-size: 20px;
+    display: none;
+    width: 35px;
+    height: 20px;
+    line-height: 20px;
+    text-align:center;
+    color:#77778b
+}
+
+#top_menu label span{
+    font: normal 14px Arial;
+    position:absolute;
+    left:35px;
+}
+
+#top_menu ul.menus{
+    height:auto;
+    overflow:hidden;
+    width:180px;
+    background:#f0f0f0;
+    /* border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5; */
+    position: absolute;
+    z-index:99;
+    display:none;
+    left:-1px;
+}
+
+#top_menu ul.menus li{
+    display: block;
+    width: 100%;
+    font-size:14px;
+    text-transform:none;
+    text-shadow:none
+}
+
+#top_menu ul.menus a{
+    color:#77778b;
+    text-transform:uppercase
+}
+
+#top_menu li:hover ul.menus{
+    display:block
+}
+
+#top_menu a.dropdown{
+    padding:0 27px 0 14px
+}
+
+#top_menu a.dropdown::after{
+    content:"";
+    width:0;
+    height:0;
+    border-width: 6px 5px;
+    border-style: solid;
+    border-color: #9292a2 transparent transparent transparent;
+    position:absolute;
+    top:14px;
+    right:9px
+}
+
+#top_menu ul.menus a:hover{
+    background:rgba(0, 0, 0, 0.28);
+    color:#333
 }
 
 #top_menu ul li a:hover{
@@ -35,7 +118,6 @@
     height: 50px;
     position: fixed;
     z-index: 9999;
-    overflow: hidden;
     margin-bottom: 10px;
     top: 0;
     left: 0;
@@ -64,10 +146,11 @@
 
 .cover{
     height: 500px;
-    background: url(../img/__murakumo_kantai_collection_drawn_by_fujita_condor__9b5825b75daead007ee14ad1066815a9.jpg) no-repeat center;
+    background: url(../img/__after_hours_drawn_by_stag__a08d15d54ca901d5529a67a3de561cf4.jpg) no-repeat;
     color: #ffffff;
     background-size: 100%;
     text-align: center; 
+    background-position-y: 10%
 }
 
 @media only screen and (max-width: 1366px){

@@ -19,37 +19,52 @@ if (!isset($_SESSION['username'])){
     </head>
     <body>
         <div id="menuwrapper">
-            <div id="menuwrap">
-                <div id="top_menu">
-                    <ul>
-                        <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                            <a href="../index.php">G7 GROUP</a>
-                        </li>
-                        <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                            <a href="../index.php#Service">Service</a>
-                        </li>
-                        <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                            <a href="about.php">About</a>
-                        </li>
-                        <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                            <a href="../map/map.php">Travel NOW</a>
-                        </li>
-                        <?php if (!isset($_SESSION['username'])) : ?>
+                <div id="menuwrap">
+                    <div id="top_menu">
+                        <input type='checkbox'/>
+                        <label>
+                            <i class='icon-reorder'></i>
+                            <span>Navigation</span>
+                        </label>
+                        <ul>
+                            <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
+                                <a href="../index.php">G7 GROUP</a>
+                            </li>
+                            <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
+                                <a href="../index.php#Service">Service</a>
+                            </li>
+                            <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
+                                <a href="about.php">About</a>
+                            </li>
+                            <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
+                                <a href="../map/map.php">Travel NOW</a> 
+                            <?php if (!isset($_SESSION['username'])):?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
                                     <a href="../userregistration/login.php">Log In</a>
                                 </li>
                             <?php else:?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                    <a href="../userregistration/logout.php">Log Out</a>
+                                    <a>Welcome <?php echo $_SESSION['username']; ?></a>
+                                    <ul class="menus">
+                                        <li>
+                                            <a href="">Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Setting</a>
+                                        </li>
+                                        <li>
+                                            <a href="../userregistration/logout.php">Log Out</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             <?php endif;?>
-                        <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                            <a href="">Help Centre</a>
-                        </li>
-                    </ul>
+                            <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
+                                <a href="">Help Centre</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
         <div class="headerwrapper">
             <div class="header-wrapper">
                 <div class="coverabout">
@@ -282,7 +297,6 @@ if (!isset($_SESSION['username'])){
                         <a href="">G7 Freight</a><br><br>
                         <a href="">G7 Motorbike</a><br><br>
                         <a href="">G7 for Business</a><br><br>
-                        <a href="">G7 Air</a>
                     </div>
                 </section>
             </div>
@@ -293,7 +307,7 @@ if (!isset($_SESSION['username'])){
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
-                        <p><a href="privacy.html">Privacy</a>
+                        <p><a href="privacy.php">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>
