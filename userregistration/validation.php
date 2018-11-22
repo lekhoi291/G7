@@ -10,10 +10,6 @@ mysqli_select_db($con, 'userregistration');
 $name = $_POST['user'];
 $pass = $_POST ['password'];
 
-// /*$email = $_POST['mail'];
-// $phone = $_POST['phone'];
-// $address = $_POST['address'];*/
-
 $s = " SELECT * FROM usertable WHERE name = '$name'&& password = '$pass'";
 
 $result = mysqli_query($con, $s);

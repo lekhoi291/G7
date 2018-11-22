@@ -130,3 +130,54 @@
     position: absolute;
     width: 100%;
 }
+
+@media only screen and (max-width: 1366px){
+    .coversafety{
+        height: 355px;
+    }
+    
+    .hr{
+        height: 1.5px;
+    }
+
+    .textsafe1 h1{
+        font-size: 28.5;
+    }
+
+    .textsafe1 p{
+        font-size: 15.5px;
+    }
+
+    .textsafe1 h2{
+        font-size: 21px;
+    }
+
+    .icon_safe div img{
+        width: 10.5%;   
+    }
+
+    .icon_safe div h1{
+        font-size: 18px;
+    }
+
+    .icon_safe div p{
+        font-size: 14px;
+    }
+
+    .inbodycontain_safe1{
+        padding: 57px 0;
+    }
+
+    .textsafe2 p{
+        font-size: 15.5px;
+    }
+
+    .boxlink_safe a{
+        font-size: 14px;
+    }
+
+    .boxlink_safe a:link, .boxlink_safe a:visited{
+        padding: 8.5px 32px;
+        box-shadow: 1.5px 1.5px 7px rgba(0,0,0,1);
+    }
+}

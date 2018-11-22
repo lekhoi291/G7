@@ -79,16 +79,19 @@
 }
 
 .aboutcontain1{
-    width: 100%;
     display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    width: auto;
+    flex-basis: 0;
 }
 
 .aboutcontain1 img{
-    width: 5%;
-    height: 5%;
+    max-width: 5%;
     display: block;
-    margin: auto;
-    margin-right: 2%;
+    margin-right: 3%;
 }
 
 .aboutimg1{
@@ -198,5 +201,65 @@
 @media only screen and (max-width: 1366px){
     .coverabout{
         height: 355px;
+    }
+
+    .coverabout h1{
+        font-size: 60px;
+    }
+
+    .bodycontain_about1, .bodycontain_about5{
+        padding: 57px 0;
+    }
+
+    .textabout1 h1{
+        font-size: 25px;
+    }
+    
+    .textabout1 div p{
+        font-size: 18px;
+    }
+    
+    .textabout1 div p b{
+        font-size: 18px;
+    }
+    
+    .textabout4 h3{
+        font-size: 14px;
+    }
+    
+    .textabout4 h4{
+        font-size: 13px;
+    }
+    
+    .textabout4 p{
+        font-size: 13px;
+    }
+
+    .textabout3 h1{
+        font-size: 28.5px;
+    }
+
+    .textabout3 div p{
+        font-size: 18px;
+    }
+
+    .coverabout1{
+        height: 497px;
+    }
+
+    .coverabouttext1{
+        padding-top: 1.5%;
+    }
+
+    .coverabouttext1 h1{
+        font-size: 28.5px;
+    }
+    
+    .coverabouttext1 p{
+        font-size: 18px;
+    }
+    
+    .coverabouttext1 h3{
+        font-size: 21px;
     }
 }

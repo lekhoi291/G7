@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 if (!isset($_SESSION['username'])){
 		header('location:../userregistration/login.php');
@@ -43,11 +43,6 @@ else {}
 		<div id="menuwrapper">
                 <div id="menuwrap">
                     <div id="top_menu">
-                        <input type='checkbox'/>
-                        <label>
-                            <i class='icon-reorder'></i>
-                            <span>Navigation</span>
-                        </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php">G7 GROUP</a>
@@ -58,35 +53,25 @@ else {}
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../about/about.php">About</a>
                             </li>
-                            <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../map/map.php">Travel NOW</a> 
-                            <?php if (!isset($_SESSION['username'])):?>
+                            <li style="border-right: 1px solid rgba(128, 80, 80, 0.3);">
+                                <a href="../map/map.php">Travel NOW</a>
+                            </li>
+                            <?php if (!isset($_SESSION['username'])) : ?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
                                     <a href="../userregistration/login.php">Log In</a>
                                 </li>
                             <?php else:?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                    <a>Welcome <?php echo $_SESSION['username']; ?></a>
-                                    <ul class="menus">
-                                        <li>
-                                            <a href="">Profile</a>
-                                        </li>
-                                        <li>
-                                            <a href="">Setting</a>
-                                        </li>
-                                        <li>
-                                            <a href="../userregistration/logout.php">Log Out</a>
-                                        </li>
-                                    </ul>
+                                    <a href="../userregistration/logout.php">Log Out</a>
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="">Help Centre</a>
+															<a href="">Help Centre</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
+             </div>
 		<div class="containermap">
 		<div class="column">
 		<div class="col-md-6">
@@ -298,7 +283,7 @@ else {}
 			});
 		</script>
 		
-		<script async defer
+		<script 
 		src="https://maps.googleapis.com/maps/api/js?AIzaSyCIV8hps_XhSyuRP4yHYcQOfvD1y1-y3HM">
 		</script>
 	</body>
