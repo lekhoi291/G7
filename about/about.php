@@ -44,7 +44,7 @@ if (!isset($_SESSION['username'])){
                                 </li>
                             <?php else:?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                    <a>Welcome <?php echo $_SESSION['username']; ?></a>
+                                    <a class="dropdown">Welcome <?php echo $_SESSION['username']; ?></a>
                                     <ul class="menus">
                                         <li>
                                             <a href="">Profile</a>
