@@ -175,15 +175,51 @@ else {}
 			</div>
 		  </div>
 		</div>
-		<div class="footermap">
-            <div class="footercontainmap">
+		<div class="footer">
+            <div class="footercontain1">
                 <section class="column">
-                    <div class="textfooter">
+                    <div class="tf1">
+                        <p>We're here to help!</p>
+                    </div>
+                    <div class="tf2 texta_white">
+                        <p>Support is just a few taps away. You can also get your questions answered by using
+                        our help section.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </section>
+            </div>
+            <div class="footercontain2">
+                <section class="column">
+                    <div class="tf3" style="flex-grow: 2;">
+                        <h1>G7 GROUP</h1>
+                        <p>Somewhere in Vietnam.</p>
+                    </div>
+                    <div class="tf3 texta_many">
+                        <h1>COMPANY</h1>
+                        <a href="../aboutabout.php">About us</a><br><br>
+                        <a href="">Newsroom</a><br><br>
+                        <a href="">Blog</a><br><br>
+                        <a href="">Careers</a><br><br>
+                        <a href="">Press</a>
+                    </div>
+                    <div class="texta_many tf3">
+                        <h1>SERVICES</h1>
+                        <a href="">G7 Taxi</a><br><br>
+                        <a href="">G7 Freight</a><br><br>
+                        <a href="">G7 Motorbike</a><br><br>
+                        <a href="">G7 for Business</a><br><br>
+                        <a href="">G7 Air</a>
+                    </div>
+                </section>
+            </div>
+            <div class="footercontain3">
+                <section class="column">
+                    <div class="tf3">
                         <p>Best display on 1080p 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
-                    <div class="texta_line textspacingend" style="text-align: right; margin: auto;">
-                        <p><a href="">Privacy</a>
+                    <div class="texta_line textspacingend tf3">
+                        <p><a href="../about/privacy.html">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>
@@ -197,7 +233,7 @@ else {}
 				var destination = document.getElementById("to_places").value;
 				if(origin == "" || destination == ""){
 					alert('You must fill the information fully');
-					window.location.href = 'map.html'; //thay bang dia chi cua may ong
+					window.location.href = 'map.php'; //thay bang dia chi cua may ong
 				}
 			};
 			$(function() {
@@ -299,7 +335,7 @@ else {}
 		</script>
 		
 		<script async defer
-		src="https://maps.googleapis.com/maps/api/js?AIzaSyCIV8hps_XhSyuRP4yHYcQOfvD1y1-y3HM">
+		src="https://maps.googleapis.com/maps/api/js?AIzaSyBO_gWQShJe9MluRlkbIppibFnPMrVIRCY">
 		</script>
 	</body>
 </html>

@@ -84,9 +84,9 @@
     display:block
 }
 
-#top_menu a.dropdown{
-    padding:0 27px 0 14px
-}
+/* #top_menu a.dropdown{
+    padding:0 27px 0 884px
+} */
 
 #top_menu a.dropdown::after{
     content:"";
@@ -96,8 +96,7 @@
     border-style: solid;
     border-color: #9292a2 transparent transparent transparent;
     position:absolute;
-    top:14px;
-    right:9px
+    margin: 22px 5px;
 }
 
 #top_menu ul.menus a:hover{
