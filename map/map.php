@@ -334,8 +334,8 @@ else {}
 			});
 		</script>
 		
-		<script async defer
-		src="https://maps.googleapis.com/maps/api/js?AIzaSyBO_gWQShJe9MluRlkbIppibFnPMrVIRCY">
+		<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBO_gWQShJe9MluRlkbIppibFnPMrVIRCY"
+		async defer>
 		</script>
 	</body>
 </html>

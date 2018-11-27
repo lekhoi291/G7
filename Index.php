@@ -99,7 +99,7 @@ session_start();
                             </section>
                         </div>      
                         <div class="img1" style="margin-left: 5%;">
-                            <img src="img/68766415_p0.png">
+                            <img src="img/__firstBG.jpg">
                         </div>
                     </section>
                 </div>
@@ -112,7 +112,7 @@ session_start();
                                 <h1>G7 Taxi</h1>
                                 <p>Let's us giving you the freedom to travel<br>
                                 from almost anywhere, anyplace, at anytime</p>
-                                <div class="boxlink_slide"><a href="">Learn More</a></div>
+                                <div class="boxlink_slide"><a href="services/taxi.php">Learn More</a></div>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +171,7 @@ session_start();
                             </div>
                         </div>
                         <div class="img3">
-                            <img src="img/yande.re 487309 landscape mifuru seifuku umbrella.png">
+                            <img src="img/__secondBG.jpg">
                         </div>
                     </section>
                 </div>
@@ -262,7 +262,7 @@ session_start();
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
-                        <p><a href="about/privacy.html">Privacy</a>
+                        <p><a href="about/privacy.php">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>

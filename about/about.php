@@ -248,18 +248,20 @@ if (!isset($_SESSION['username'])){
                     </div>
                 </div>
                 <div class="coverabout1">
-                    <div class="coverabouttext1">
-                        <h1>G7 in a nutshell</h1>
-                        <p>The goals we’ve set for ourselves aren’t easy to achieve. 
-                        But we believe one day soon, every single person in 
-                        Southeast Asia<br> will be able to travel safely, 
-                        comfortably, and easily to work, to college,
-                        and to tea with a few friends.</p>
-                        <p>With every single day that passes, we’re more certain of it. 
-                        Because we have you to help get us there. That’s 
-                        what G7 is<br> really about. Bringing people 
-                        together to make life better for all.</p>
-                        <h3>Forward Together.</h3>
+                    <div class="coveraboutcontent1">
+                        <div class="coverabouttext1">
+                            <h1>G7 in a nutshell</h1>
+                            <p>The goals we’ve set for ourselves aren’t easy to achieve. 
+                            But we believe one day soon, every single person in 
+                            Southeast Asia<br> will be able to travel safely, 
+                            comfortably, and easily to work, to college,
+                            and to tea with a few friends.</p>
+                            <p>With every single day that passes, we’re more certain of it. 
+                            Because we have you to help get us there. That’s 
+                            what G7 is<br> really about. Bringing people 
+                            together to make life better for all.</p>
+                            <h3>Forward Together.</h3>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 .coverabout{
     height: 500px;
-    background: url(../../img/yande.re\ 407064\ fujita_\(condor\)\ kantai_collection\ murakumo_\(kancolle\)\ pantyhose\ seifuku\ umbrella.jpg) no-repeat center;
+    background: url(../../img/__cover.jpg) no-repeat center;
     color: #ffffff;
     background-size: 100%;
     text-align: center;
@@ -101,7 +101,7 @@
 
 .aboutimg1 img{
     max-width: 100%;
-    margin: -20% 0 -80%;
+    margin: -0% 0 -5%;
 }
 
 .bodycontain_about3{
@@ -115,7 +115,7 @@
 
 .aboutimg2 img{
     max-width: 100%;
-    margin: -30% 0 -42.3%;
+    margin: -0% 0 -11%;
 }
 
 .bodycontain_about4{
@@ -129,7 +129,7 @@
 
 .aboutimg3 img{
     max-width: 100%;
-    margin: -10% 0 -74.25%;
+    margin: -10% 0 -0%;
 }
 
 .textabout3{
@@ -172,21 +172,27 @@
 .coverabout1{
     height: 700px;
     background: url(../../img/67463565_p0.jpg) no-repeat bottom;
-    color: black;
     background-size: 100%;
     text-align: center;
     position: relative;
     font-family: "Garamond";
 }
 
+.coveraboutcontent1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
 .coverabouttext1{
     margin: auto;
     width: 90%;
     padding-top: 2%;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
 }
 
 .coverabouttext1 h1{
-    color: #2c518d;
+    
     font-size: 40px;
 }
 
@@ -195,7 +201,7 @@
 }
 
 .coverabouttext1 h3{
-    color: #2c518d;
+    
     font-size: 30px;
 }
 

@@ -1,0 +1,85 @@
+.covertaxi{
+    height: 500px;
+    background: url(../../img/__graf_zeppelin_kantai_collection_drawn_by_fujita_condor__59eaad3931d697b9f31058275f4b161d.jpg) no-repeat center;
+    color: #ffffff;
+    background-size: 100%;
+    position: relative;
+}
+
+.covertext{
+    position: relative;
+    padding: 4% 0 0 7%;
+    font-family: "Garamond";
+    color: white;
+}
+
+.covertext h1{
+    font-size: 50px;
+    padding: 0;
+    margin: 0 0 1% 0;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+.covertext p{
+    font-size: 31px;
+    margin: 0 0 2% 0;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+}
+
+.texttaxi1{
+    text-align: center;
+    font-family: "Garamond";
+}
+
+.texttaxi1 h1{
+    font-size: 63px;
+    color: #2c518d;
+    margin: 0 0 2% 0;
+}
+
+.containtaxi1{
+    margin: 0 25%;
+}
+
+.texttaxi2{
+    font-family: "Garamond";
+    text-align: justify;
+    color: black;
+}
+
+.texttaxi2 h4{
+    font-size: 25px;
+    margin: 2% 0;
+}
+
+.texttaxi2 p{
+    font-size: 20px;
+    margin: 2% 0;
+}
+
+.hr{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    margin: 2% 0;
+	height:2px;
+	background:rgb(96, 96, 96, .3);
+}
+
+@media only screen and (max-width: 1366px){
+    .covertaxi{
+        height: 355px;
+    }
+
+    .covertext h1{
+        font-size: 35px;
+    }
+
+    .covertext p{
+        font-size: 22px;
+    }
+
+    .texttaxi1 h1{
+        font-size: 45px;
+    }
+}
