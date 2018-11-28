@@ -126,10 +126,10 @@ else {}
 				COST of Taxi(VND):
 				<span id="costtaxi" class="badge badge-primary badge-pill"></span>
 			</li>
-			<button onclick="myFunction()" type="button" id = "book" class="btn btn-primary" data-toggle="modal" data-target="#ModalLong" style="margin-top: 2%;">
+			<button onclick="requiredinfoFunction()" type="button" id = "book" class="btn btn-primary" data-toggle="modal" data-target="#ModalLong" style="margin-top: 2%;">
 				BOOK MOTOR 
 			</button>
-			<button onclick="myFunction()" type="button" id = "book" class="btn btn-primary" data-toggle="modal" data-target="#ModalLong" style="margin-top: 2%;">
+			<button onclick="requiredinfoFunction()" type="button" id = "book" class="btn btn-primary" data-toggle="modal" data-target="#ModalLong" style="margin-top: 2%;">
 				BOOK TAXI
 			</button>
 		</form>
@@ -229,12 +229,12 @@ else {}
         </div>
 	
 		<script>
-			function myFunction() {
+			function requiredinfoFunction() {
 				var origin = document.getElementById("from_places").value;
 				var destination = document.getElementById("to_places").value;
 				if(origin == "" || destination == ""){
 					alert('You must fill the information fully');
-					window.location.href = 'map.html'; //thay bang dia chi cua may ong
+					window.location.href = 'map.html'; 
 				}
 			};
 			$(function() {
@@ -307,22 +307,23 @@ else {}
 						} else {
 							var distance = response.rows[0].elements[0].distance;
 							var duration = response.rows[0].elements[0].duration;
-							var distance_in_Kilometer = distance.value / 1000; 
+							var distance_Kilometer = distance.value / 1000; 
+							var distance_round = Math.round(distance_Kilometer);
 							var duration_text = duration.text;
-							if(distance_in_Kilometer <= 10){
-								var costmoto = distance_in_Kilometer * 15000.00;
-								var costtaxi = distance_in_Kilometer * 16000.00;
+							if(distance_Kilometer <= 10){
+								var costmoto = distance_round * 15000.00;
+								var costtaxi = distance_round * 16000.00;
 							}
-							if(distance_in_Kilometer > 10 && distance_in_Kilometer <=50){
-								var costmoto = distance_in_Kilometer * 10000.00;
-								var costtaxi = distance_in_Kilometer * 11000.00;
+							if(distance_Kilometer > 10 && distance_Kilometer <=50){
+								var costmoto = distance_round * 10000.00;
+								var costtaxi = distance_round * 11000.00;
 							}
-							if(distance_in_Kilometer > 50){
-								var costmoto = distance_in_Kilometer * 5000.00;
-								var costtaxi = distance_in_Kilometer * 6000.00;
+							if(distance_Kilometer > 50){
+								var costmoto = distance_round * 5000.00;
+								var costtaxi = distance_round * 6000.00;
 							}
 					
-							$('#in_Kilometer').text(distance_in_Kilometer.toFixed(2));
+							$('#in_Kilometer').text(distance_Kilometer.toFixed(2));
 							$('#duration_text').text(duration_text);
 							$('#from').text(origin);
 							$('#to').text(destination);
