@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 if (!isset($_SESSION['username'])){
 		header('location:../userregistration/login.php');
@@ -43,6 +43,11 @@ else {}
 		<div id="menuwrapper">
                 <div id="menuwrap">
                     <div id="top_menu">
+                        <input type='checkbox'/>
+                        <label>
+                            <i class='icon-reorder'></i>
+                            <span>Navigation</span>
+                        </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php">G7 GROUP</a>
@@ -53,10 +58,9 @@ else {}
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../about/about.php">About</a>
                             </li>
-                            <li style="border-right: 1px solid rgba(128, 80, 80, 0.3);">
-                                <a href="../map/map.php">Travel NOW</a>
-                            </li>
-                            <?php if (!isset($_SESSION['username'])) : ?>
+                            <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
+                                <a href="../map/map.php">Travel NOW</a> 
+                            <?php if (!isset($_SESSION['username'])):?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
                                     <a href="../userregistration/login.php">Log In</a>
                                 </li>
@@ -77,12 +81,12 @@ else {}
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-															<a href="">Help Centre</a>
+                                <a href="">Help Centre</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-             </div>
+            </div>
 		<div class="containermap">
 		<div class="column">
 		<div class="col-md-6">
@@ -171,15 +175,51 @@ else {}
 			</div>
 		  </div>
 		</div>
-		<div class="footermap">
-            <div class="footercontainmap">
+		<div class="footer">
+            <div class="footercontain1">
                 <section class="column">
-                    <div class="textfooter">
+                    <div class="tf1">
+                        <p>We're here to help!</p>
+                    </div>
+                    <div class="tf2 texta_white">
+                        <p>Support is just a few taps away. You can also get your questions answered by using
+                        our help section.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </section>
+            </div>
+            <div class="footercontain2">
+                <section class="column">
+                    <div class="tf3" style="flex-grow: 2;">
+                        <h1>G7 GROUP</h1>
+                        <p>Somewhere in Vietnam.</p>
+                    </div>
+                    <div class="tf3 texta_many">
+                        <h1>COMPANY</h1>
+                        <a href="../aboutabout.php">About us</a><br><br>
+                        <a href="">Newsroom</a><br><br>
+                        <a href="">Blog</a><br><br>
+                        <a href="">Careers</a><br><br>
+                        <a href="">Press</a>
+                    </div>
+                    <div class="texta_many tf3">
+                        <h1>SERVICES</h1>
+                        <a href="">G7 Taxi</a><br><br>
+                        <a href="">G7 Freight</a><br><br>
+                        <a href="">G7 Motorbike</a><br><br>
+                        <a href="">G7 for Business</a><br><br>
+                        <a href="">G7 Air</a>
+                    </div>
+                </section>
+            </div>
+            <div class="footercontain3">
+                <section class="column">
+                    <div class="tf3">
                         <p>Best display on 1080p 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
-                    <div class="texta_line textspacingend" style="text-align: right; margin: auto;">
-                        <p><a href="">Privacy</a>
+                    <div class="texta_line textspacingend tf3">
+                        <p><a href="../about/privacy.html">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>
@@ -193,7 +233,7 @@ else {}
 				var destination = document.getElementById("to_places").value;
 				if(origin == "" || destination == ""){
 					alert('You must fill the information fully');
-					window.location.href = 'map.html'; //thay bang dia chi cua may ong
+					window.location.href = 'map.php'; //thay bang dia chi cua may ong
 				}
 			};
 			$(function() {
@@ -294,8 +334,8 @@ else {}
 			});
 		</script>
 		
-		<script 
-		src="https://maps.googleapis.com/maps/api/js?AIzaSyCIV8hps_XhSyuRP4yHYcQOfvD1y1-y3HM">
+		<script src="https://maps.googleapis.com/maps/api/js?AIzaSyBO_gWQShJe9MluRlkbIppibFnPMrVIRCY"
+		async defer>
 		</script>
 	</body>
 </html>
