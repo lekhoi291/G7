@@ -77,7 +77,7 @@
         <div class="container">
             <div class="mainbody">
                 <div class="bodycontain1 texttaxi1">
-                    <h1>Why G7 Taxi?</h1>
+                    <h1>Why G7 Freight?</h1>
                     <div class="containtaxi1 texttaxi2">
                          <div class="aboutcontain1">
                             <img src="../img/clock.png">
