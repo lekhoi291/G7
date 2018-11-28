@@ -119,11 +119,18 @@ else {}
 				<span id="to" class="badge badge-primary badge-pill"></span>
 			</li>
 			<li  class="list-group-item d-flex justify-content-between align-items-center">
-				COST(VND):
-				<span id="cost" class="badge badge-primary badge-pill"></span>
+				COST of Motor(VND):
+				<span id="costmoto" class="badge badge-primary badge-pill"></span>
+			</li>
+			<li  class="list-group-item d-flex justify-content-between align-items-center">
+				COST of Taxi(VND):
+				<span id="costtaxi" class="badge badge-primary badge-pill"></span>
 			</li>
 			<button onclick="myFunction()" type="button" id = "book" class="btn btn-primary" data-toggle="modal" data-target="#ModalLong" style="margin-top: 2%;">
-				BOOK 
+				BOOK MOTOR 
+			</button>
+			<button onclick="myFunction()" type="button" id = "book" class="btn btn-primary" data-toggle="modal" data-target="#ModalLong" style="margin-top: 2%;">
+				BOOK TAXI
 			</button>
 		</form>
 		</ul>
@@ -269,20 +276,24 @@ else {}
 							var distance_in_Kilometer = distance.value / 1000; 
 							var duration_text = duration.text;
 							if(distance_in_Kilometer <= 10){
-								var cost = distance_in_Kilometer * 15000.00;
+								var costmoto = distance_in_Kilometer * 15000.00;
+								var costtaxi = distance_in_Kilometer * 16000.00;
 							}
 							if(distance_in_Kilometer > 10 && distance_in_Kilometer <=50){
-								var cost = distance_in_Kilometer * 10000.00;
+								var costmoto = distance_in_Kilometer * 10000.00;
+								var costtaxi = distance_in_Kilometer * 11000.00;
 							}
 							if(distance_in_Kilometer > 50){
-								var cost = distance_in_Kilometer * 5000.00;
+								var costmoto = distance_in_Kilometer * 5000.00;
+								var costtaxi = distance_in_Kilometer * 6000.00;
 							}
 					
 							$('#in_Kilometer').text(distance_in_Kilometer.toFixed(2));
 							$('#duration_text').text(duration_text);
 							$('#from').text(origin);
 							$('#to').text(destination);
-							$('#cost').text(cost);		
+							$('#costmoto').text(costmoto);
+							$('#costtaxi').text(costtaxi);		
 						}
 					}
 				}
