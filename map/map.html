@@ -62,7 +62,18 @@ else {}
                                 </li>
                             <?php else:?>
                                 <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                    <a href="../userregistration/logout.php">Log Out</a>
+                                    <a class="dropdown">Welcome <?php echo $_SESSION['username']; ?></a>
+                                    <ul class="menus">
+                                        <li>
+                                            <a href="">Profile</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Setting</a>
+                                        </li>
+                                        <li>
+                                            <a href="../userregistration/logout.php">Log Out</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
@@ -167,15 +178,49 @@ else {}
 			</div>
 		  </div>
 		</div>
-		<div class="footermap">
-            <div class="footercontainmap">
+		<div class="footer">
+            <div class="footercontain1">
                 <section class="column">
-                    <div class="textfooter">
-                        <p>Best display on 1080p 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
+                    <div class="tf1">
+                        <p>We're here to help!</p>
+                    </div>
+                    <div class="tf2 texta_white">
+                        <p>Support is just a few taps away. You can also get your questions answered by using
+                        our help section.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </section>
+            </div>
+            <div class="footercontain2">
+                <section class="column">
+                    <div class="tf3" style="flex-grow: 2;">
+                        <h1>G7 GROUP</h1>
+                        <p>Somewhere in Vietnam.</p>
+                    </div>
+                    <div class="tf3 texta_many">
+                        <h1>COMPANY</h1>
+                        <a href="../about/about.php">About us</a><br><br>
+                        <a href="../about/news.php">Newsroom</a><br><br>
+                        <a href="">Blog</a><br><br>
+                        <a href="">Careers</a><br><br>
+                    </div>
+                    <div class="texta_many tf3">
+                        <h1>SERVICES</h1>
+                        <a href="../services/taxi.php">G7 Taxi</a><br><br>
+                        <a href="../services/motor.php">G7 Motorbike</a><br><br>
+                        <a href="../services/freight.php">G7 Freight</a><br><br>
+                        <a href="../services/business.php">G7 for Business</a><br><br>
+                    </div>
+                </section>
+            </div>
+            <div class="footercontain3">
+                <section class="column">
+                    <div class="tf3">
+                        <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
-                    <div class="texta_line textspacingend" style="text-align: right; margin: auto;">
-                        <p><a href="">Privacy</a>
+                    <div class="texta_line textspacingend tf3">
+                        <p><a href="privacy.php">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>
