@@ -57,7 +57,7 @@ session_start();
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="">Help Centre</a>
+                                <a href="about/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -124,7 +124,7 @@ session_start();
                                 <p>Let's our largest local motorbike taxi service that give you <br> 
                                 the freedom to move around the city 
                                 conveniently.</p>
-                                <div class="boxlink_slide"><a href="">Learn More</a></div>
+                                <div class="boxlink_slide"><a href="services/motor.php">Learn More</a></div>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ session_start();
                                 <h1>G7 Freight</h1>
                                 <p>Freedom to haul the way you want, giving you the freedom<br> to give 
                                 and take all your personal items without waiting.</p>
-                                <div class="boxlink_slide"><a href="">Learn More</a></div>
+                                <div class="boxlink_slide"><a href="services/freight.php">Learn More</a></div>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ session_start();
                                 <h1>G7 for Business</h1>
                                 <p>How teams help move people and guests.<br>
                                 Everywhere your business needs to go.</p>
-                                <div class="boxlink_slide"><a href="">Learn More</a></div>
+                                <div class="boxlink_slide"><a href="services/business.php">Learn More</a></div>
                                 </div>
                             </div>
                         </div>
@@ -208,10 +208,10 @@ session_start();
                                     <a href="about/about.php">Learn More</a>
                                 </div>
                                 <div>
-                                    <a href="about/news.html">Learn More</a>
+                                    <a href="about/news.php">Learn More</a>
                                 </div>
                                 <div>
-                                    <a href="about/community.html">Learn More</a>
+                                    <a href="about/community.php">Learn More</a>
                                 </div>
                             </section>
                         </div>
@@ -241,24 +241,23 @@ session_start();
                     <div class="tf3 texta_many">
                         <h1>COMPANY</h1>
                         <a href="about/about.php">About us</a><br><br>
-                        <a href="about/news.html">Newsroom</a><br><br>
-                        <a href="about/blog.html">Blog</a><br><br>
+                        <a href="about/news.php">Newsroom</a><br><br>
+                        <a href="about/blog.php">Blog</a><br><br>
                         <a href="">Careers</a><br><br>
-                        <a href="">Press</a>
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="">G7 Taxi</a><br><br>
-                        <a href="">G7 Freight</a><br><br>
-                        <a href="">G7 Motorbike</a><br><br>
-                        <a href="">G7 for Business</a><br><br>
+                        <a href="services/taxi.php">G7 Taxi</a><br><br>
+                        <a href="services/motor.php">G7 Motorbike</a><br><br>
+                        <a href="services/freight.php">G7 Freight</a><br><br>
+                        <a href="services/business.php">G7 for Business</a><br><br>
                     </div>
                 </section>
             </div>
             <div class="footercontain3">
                 <section class="column">
                     <div class="tf3">
-                        <p>Best display on 1080p 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
+                        <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">

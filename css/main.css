@@ -25,9 +25,9 @@ a:hover{
     width: 100%;
 }
 
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
 	display: none;
-}
+} */
 
 .footer{
 	width: 100%;

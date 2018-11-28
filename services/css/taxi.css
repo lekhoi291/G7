@@ -6,6 +6,31 @@
     position: relative;
 }
 
+.covermotor{
+    height: 500px;
+    background: url(../../img/__hibiki_i_class_destroyer_and_verniy_kantai_collection_drawn_by_fujita_condor__2ffaac39a7df25a263ebab9568d5b83e.jpg) no-repeat center;
+    color: #ffffff;
+    background-size: 100%;
+    position: relative;
+}
+
+.coverfreight{
+    height: 500px;
+    background: url(../../img/__i_13_and_i_14_kantai_collection_drawn_by_fujita_condor__5c466dd7160bed8aeeae8bbcec4665cc.jpg) no-repeat center;
+    color: #ffffff;
+    background-size: 100%;
+    position: relative;
+    background-position-y: 100%;
+}
+
+.coverbusiness{
+    height: 500px;
+    background: url(../../img/__saratoga_kantai_collection_drawn_by_fujita_condor__678a622cc85f71efd8ff2e77b4ca80ad.jpg) no-repeat center;
+    color: #ffffff;
+    background-size: 100%;
+    position: relative;
+}
+
 .covertext{
     position: relative;
     padding: 4% 0 0 7%;
@@ -14,14 +39,14 @@
 }
 
 .covertext h1{
-    font-size: 50px;
+    font-size: 45px;
     padding: 0;
     margin: 0 0 1% 0;
     text-shadow: 5px 5px 10px rgba(0,0,0,1);
 }
 
 .covertext p{
-    font-size: 31px;
+    font-size: 25px;
     margin: 0 0 2% 0;
     text-shadow: 5px 5px 10px rgba(0,0,0,1);
 }
@@ -32,7 +57,7 @@
 }
 
 .texttaxi1 h1{
-    font-size: 63px;
+    font-size: 50px;
     color: #2c518d;
     margin: 0 0 2% 0;
 }

@@ -59,7 +59,7 @@ if (!isset($_SESSION['username'])){
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="">Help Centre</a>
+                                <a href="helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -288,24 +288,23 @@ if (!isset($_SESSION['username'])){
                     <div class="tf3 texta_many">
                         <h1>COMPANY</h1>
                         <a href="about.php">About us</a><br><br>
-                        <a href="">Newsroom</a><br><br>
-                        <a href="">Blog</a><br><br>
+                        <a href="news.php">Newsroom</a><br><br>
+                        <a href="blog.php">Blog</a><br><br>
                         <a href="">Careers</a><br><br>
-                        <a href="">Press</a>
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="">G7 Taxi</a><br><br>
-                        <a href="">G7 Freight</a><br><br>
-                        <a href="">G7 Motorbike</a><br><br>
-                        <a href="">G7 for Business</a><br><br>
+                        <a href="../services/taxi.php">G7 Taxi</a><br><br>
+                        <a href="../services/motor.php">G7 Motorbike</a><br><br>
+                        <a href="../services/freight.php">G7 Freight</a><br><br>
+                        <a href="../services/business.php">G7 for Business</a><br><br>
                     </div>
                 </section>
             </div>
             <div class="footercontain3">
                 <section class="column">
                     <div class="tf3">
-                        <p>Best display on 1080p 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
+                        <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
                         G7 GROUP © 2018 Designed by Gruppe Neun.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
