@@ -45,7 +45,7 @@ else {}
                     <div id="top_menu">
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../index.php">G7 GROUP</a>
+                                <a href="../index.php">G9 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php#Service">Service</a>
@@ -77,7 +77,7 @@ else {}
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-															<a href="">Help Centre</a>
+								<a href="../helpcentre/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -194,7 +194,7 @@ else {}
             <div class="footercontain2">
                 <section class="column">
                     <div class="tf3" style="flex-grow: 2;">
-                        <h1>G7 GROUP</h1>
+                        <h1>G9 GROUP</h1>
                         <p>Somewhere in Vietnam.</p>
                     </div>
                     <div class="tf3 texta_many">
@@ -202,14 +202,14 @@ else {}
                         <a href="../about/about.php">About us</a><br><br>
                         <a href="../about/news.php">Newsroom</a><br><br>
                         <a href="">Blog</a><br><br>
-                        <a href="">Careers</a><br><br>
+                        <a href="">Careers</a><br>
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="../services/taxi.php">G7 Taxi</a><br><br>
-                        <a href="../services/motor.php">G7 Motorbike</a><br><br>
-                        <a href="../services/freight.php">G7 Freight</a><br><br>
-                        <a href="../services/business.php">G7 for Business</a><br><br>
+                        <a href="../services/taxi.php">G9 Taxi</a><br><br>
+                        <a href="../services/motor.php">G9 Motorbike</a><br><br>
+                        <a href="../services/freight.php">G9 Freight</a><br><br>
+                        <a href="../services/business.php">G9 for Business</a><br>
                     </div>
                 </section>
             </div>
@@ -217,10 +217,10 @@ else {}
                 <section class="column">
                     <div class="tf3">
                         <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
-                        G7 GROUP © 2018 Designed by Gruppe Neun.</p>
+                        G9 GROUP © 2018 Designed by Group Nine.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
-                        <p><a href="privacy.php">Privacy</a>
+                        <p><a href="../about/privacy.php">Privacy</a>
                         <a href="">Accessibility</a>
                         <a href="">Terms</a></p>
                     </div>
@@ -341,7 +341,7 @@ else {}
 		</script>
 		
 		<script 
-		src="https://maps.googleapis.com/maps/api/js?AIzaSyCIV8hps_XhSyuRP4yHYcQOfvD1y1-y3HM">
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIV8hps_XhSyuRP4yHYcQOfvD1y1-y3HM&callback=initMap">
 		</script>
 	</body>
 </html>

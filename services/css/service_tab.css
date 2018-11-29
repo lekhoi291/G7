@@ -51,12 +51,10 @@
     font-size: 20px;
   }
   
-  /* :checked */
   .tab input:checked ~ .tab-content {
     max-height: 100vh;
   }
   
-  /* Icon */
   .tab label::after {
     position: absolute;
     right: 0;
@@ -75,14 +73,6 @@
     content: "+";
   }
   
-  .tab input[type=radio] + label::after {
-    content: "\25BC";
-  }
-  
   .tab input[type=checkbox]:checked + label::after {
     transform: rotate(315deg);
-  }
-  
-  .tab input[type=radio]:checked + label::after {
-    transform: rotateX(180deg);
   }

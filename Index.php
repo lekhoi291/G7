@@ -4,7 +4,7 @@ session_start();
 
 <html>
     <head>
-        <title>G7 GROUP</title>
+        <title>G9 GROUP</title>
         <link rel="stylesheet" href="css/main.css" type="text/css">
         <link rel="stylesheet" href="css/header.css" type="text/css">
         <link rel="stylesheet" href="css/mainbody.css" type="text/css">
@@ -13,6 +13,7 @@ session_start();
         <script src="Js/jquery-3.3.1.min.js"></script>
         <script src="Js/scrollanimation.js"></script>
         <link rel="icon" href="img/Polar_Bear-512.png">
+        <link rel="stylesheet" href="about/aboutcss/safety.css" type="text/css">
     </head>
     <body>
         <div class="container">
@@ -26,7 +27,7 @@ session_start();
                         </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="#movetop">G7 GROUP</a>
+                                <a href="#movetop">G9 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="#Service">Service</a>
@@ -57,7 +58,7 @@ session_start();
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="about/helpcentre.php">Help Centre</a>
+                                <a href="helpcentre/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -109,7 +110,7 @@ session_start();
                             <img src="img/__graf_zeppelin_kantai_collection_drawn_by_fujita_condor__59eaad3931d697b9f31058275f4b161d.jpg">
                             <div class="captiontextcontain">
                                 <div class="textcaption">
-                                <h1>G7 Taxi</h1>
+                                <h1>G9 Taxi</h1>
                                 <p>Let's us giving you the freedom to travel<br>
                                 from almost anywhere, anyplace, at anytime</p>
                                 <div class="boxlink_slide"><a href="services/taxi.php">Learn More</a></div>
@@ -120,7 +121,7 @@ session_start();
                             <img src="img/__hibiki_i_class_destroyer_and_verniy_kantai_collection_drawn_by_fujita_condor__2ffaac39a7df25a263ebab9568d5b83e.jpg">
                             <div class="captiontextcontain">
                                 <div class="textcaption">
-                                <h1>G7 Motorbike</h1>
+                                <h1>G9 Motorbike</h1>
                                 <p>Let's our largest local motorbike taxi service that give you <br> 
                                 the freedom to move around the city 
                                 conveniently.</p>
@@ -132,7 +133,7 @@ session_start();
                             <img src="img/__i_13_and_i_14_kantai_collection_drawn_by_fujita_condor__5c466dd7160bed8aeeae8bbcec4665cc.jpg">
                             <div class="captiontextcontain">
                                 <div class="textcaption">
-                                <h1>G7 Freight</h1>
+                                <h1>G9 Freight</h1>
                                 <p>Freedom to haul the way you want, giving you the freedom<br> to give 
                                 and take all your personal items without waiting.</p>
                                 <div class="boxlink_slide"><a href="services/freight.php">Learn More</a></div>
@@ -143,7 +144,7 @@ session_start();
                             <img src="img/__saratoga_kantai_collection_drawn_by_fujita_condor__678a622cc85f71efd8ff2e77b4ca80ad.jpg">
                             <div class="captiontextcontain">
                                 <div class="textcaption">
-                                <h1>G7 for Business</h1>
+                                <h1>G9 for Business</h1>
                                 <p>How teams help move people and guests.<br>
                                 Everywhere your business needs to go.</p>
                                 <div class="boxlink_slide"><a href="services/business.php">Learn More</a></div>
@@ -172,6 +173,21 @@ session_start();
                         </div>
                         <div class="img3">
                             <img src="img/__secondBG.jpg">
+                        </div>
+                    </section>
+                </div>
+                <div class="hr"></div>
+                <div class="bodycontain2">
+                    <section class="column">
+                        <div class="img3">
+                            <img src="img/DpuzlNhXoAAfPr_.jpg">
+                        </div>
+                        <div class="text3">
+                            <h1>Let's join our community</h1>
+                            <p>A whole lot more than just a taxi service.</p>
+                            <div class="boxlink_travel_now">
+                                <a href="userregistration/login.php">Sign Up</a>
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -235,7 +251,7 @@ session_start();
             <div class="footercontain2">
                 <section class="column">
                     <div class="tf3" style="flex-grow: 2;">
-                        <h1>G7 GROUP</h1>
+                        <h1>G9 GROUP</h1>
                         <p>Somewhere in Vietnam.</p>
                     </div>
                     <div class="tf3 texta_many">
@@ -247,10 +263,10 @@ session_start();
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="services/taxi.php">G7 Taxi</a><br><br>
-                        <a href="services/motor.php">G7 Motorbike</a><br><br>
-                        <a href="services/freight.php">G7 Freight</a><br><br>
-                        <a href="services/business.php">G7 for Business</a><br><br>
+                        <a href="services/taxi.php">G9 Taxi</a><br><br>
+                        <a href="services/motor.php">G9 Motorbike</a><br><br>
+                        <a href="services/freight.php">G9 Freight</a><br><br>
+                        <a href="services/business.php">G9 for Business</a><br><br>
                     </div>
                 </section>
             </div>
@@ -258,7 +274,7 @@ session_start();
                 <section class="column">
                     <div class="tf3">
                         <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
-                        G7 GROUP © 2018 Designed by Gruppe Neun.</p>
+                        G9 GROUP © 2018 Designed by Group Nine.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
                         <p><a href="about/privacy.php">Privacy</a>

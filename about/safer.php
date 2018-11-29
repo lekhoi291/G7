@@ -28,7 +28,7 @@ if (!isset($_SESSION['username'])){
                         </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../index.php">G7 GROUP</a>
+                                <a href="../index.php">G9 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php#Service">Service</a>
@@ -59,7 +59,7 @@ if (!isset($_SESSION['username'])){
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="helpcentre.php">Help Centre</a>
+                                <a href="../helpcentre/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -73,7 +73,7 @@ if (!isset($_SESSION['username'])){
         <div class="container">
             <div class="mainbody">
                 <div class="bodycontain1 textsafe1">
-                    <p>At G7, our mission is to create a safer 
+                    <p>At G9, our mission is to create a safer 
                     everyday for our customers and partners, as well as the 
                     community as a whole.</p>
                     <h1>Everyday app. Everyday safety.</h1>
@@ -135,7 +135,7 @@ if (!isset($_SESSION['username'])){
                             <img src="../img/729352-200.png">
                             <h1>Code of Conduct</h1>
                             <p>Conditions that apply to any 
-                            usage<br> of G7’s services.</p>
+                            usage<br> of G9’s services.</p>
                         </div>
                         <div></div>
                     </section>
@@ -256,7 +256,7 @@ if (!isset($_SESSION['username'])){
                                 <label for="tab-7">Emergency Button</label>
                                 <div class="tab-content">
                                     <p>At any time during a ride, passengers can press the 
-                                    emergency button in the G7 app to notify security or 
+                                    emergency button in the G9 app to notify security or 
                                     their emergency contacts.</p>
                                 </div>
                             </div>
@@ -354,7 +354,7 @@ if (!isset($_SESSION['username'])){
             <div class="footercontain2">
                 <section class="column">
                     <div class="tf3" style="flex-grow: 2;">
-                        <h1>G7 GROUP</h1>
+                        <h1>G9 GROUP</h1>
                         <p>Somewhere in Vietnam.</p>
                     </div>
                     <div class="tf3 texta_many">
@@ -366,10 +366,10 @@ if (!isset($_SESSION['username'])){
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="../services/taxi.php">G7 Taxi</a><br><br>
-                        <a href="../services/motor.php">G7 Motorbike</a><br><br>
-                        <a href="../services/freight.php">G7 Freight</a><br><br>
-                        <a href="../services/business.php">G7 for Business</a><br><br>
+                        <a href="../services/taxi.php">G9 Taxi</a><br><br>
+                        <a href="../services/motor.php">G9 Motorbike</a><br><br>
+                        <a href="../services/freight.php">G9 Freight</a><br><br>
+                        <a href="../services/business.php">G9 for Business</a><br><br>
                     </div>
                 </section>
             </div>
@@ -377,7 +377,7 @@ if (!isset($_SESSION['username'])){
                 <section class="column">
                     <div class="tf3">
                         <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
-                        G7 GROUP © 2018 Designed by Gruppe Neun.</p>
+                        G9 GROUP © 2018 Designed by Group Nine.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
                         <p><a href="privacy.html">Privacy</a>

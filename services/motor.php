@@ -1,6 +1,6 @@
 <html>
 <head>
-        <title>G7 Motorbike</title>
+        <title>G9 Motorbike</title>
         <link rel="stylesheet" href="../css/main.css" type="text/css">
         <link rel="stylesheet" href="../css/header.css" type="text/css">
         <link rel="stylesheet" href="../css/mainbody.css" type="text/css">
@@ -23,7 +23,7 @@
                         </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../index.php">G7 GROUP</a>
+                                <a href="../index.php">G9 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php#Service">Service</a>
@@ -54,7 +54,7 @@
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../abouthelpcentre.php">Help Centre</a>
+                                <a href="../helpcentre/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -65,7 +65,7 @@
                 <div class="covermotor">
                     <div class="coveraboutcontent1">
                         <div class="covertext" >
-                            <h1>G7 Mortorbike</h1>
+                            <h1>G9 Mortorbike</h1>
                             <p>Our largest local motorbike taxi service<br> that give
                             you the freedom to move<br> around the city conveniently.</p>
                             <div class="boxlink_slide"><a href="../map/map.php">TRAVEL NOW</a></div>
@@ -77,7 +77,7 @@
         <div class="container">
             <div class="mainbody">
                 <div class="bodycontain1 texttaxi1">
-                    <h1>Why G7 Mortorbike?</h1>
+                    <h1>Why G9 Mortorbike?</h1>
                     <div class="containtaxi1 texttaxi2">
                         <div class="aboutcontain1">
                             <img src="../img/pc.png">
@@ -107,28 +107,28 @@
                         <h1>FAQs</h1>
                         <div class="tab">
                             <input id="tab-one" type="checkbox" name="tabs">
-                            <label for="tab-one">Do I need to download a G7 Bike app?</label>
+                            <label for="tab-one">Do I need to download a G9 Bike app?</label>
                             <div class="tab-content">
-                                <p>No. All you need to do is selecting “G7 Bike” 
-                                icon in the G7 app for booking a motorbike taxi.                                    </p>
+                                <p>No. All you need to do is selecting “G9 Bike” 
+                                icon in the G9 app for booking a motorbike taxi.                                    </p>
                             </div>
                         </div>
                         <div class="tab">
                             <input id="tab-2" type="checkbox" name="tabs">
-                            <label for="tab-2">How is G7 Bike’s fare calculated?</label>
+                            <label for="tab-2">How is G9 Bike’s fare calculated?</label>
                             <div class="tab-content">
                                 <p>The fare is calculated base on the
                                     distance and time frame (peak and off peak hours). 
-                                    After key in your destination, G7 Bike will calculate 
+                                    After key in your destination, G9 Bike will calculate 
                                     your fare based on the shortest distance. For further information
                                     of fare regulation, please see more at the table above.</p>
                             </div>
                         </div>
                         <div class="tab">
                             <input id="tab-3" type="checkbox" name="tabs">
-                            <label for="tab-3">When is the operation time of G7 Bike?</label>
+                            <label for="tab-3">When is the operation time of G9 Bike?</label>
                             <div class="tab-content">
-                                <p>G7 Bike operates from 6 AM till 11PM. Besides, a number of freelance 
+                                <p>G9 Bike operates from 6 AM till 11PM. Besides, a number of freelance 
                                 drivers will work during special time such as late night or early morning.</p>
                             </div>
                         </div>
@@ -152,7 +152,7 @@
             <div class="footercontain2">
                 <section class="column">
                     <div class="tf3" style="flex-grow: 2;">
-                        <h1>G7 GROUP</h1>
+                        <h1>G9 GROUP</h1>
                         <p>Somewhere in Vietnam.</p>
                     </div>
                     <div class="tf3 texta_many">
@@ -164,10 +164,10 @@
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="taxi.php">G7 Taxi</a><br><br>
-                        <a href="motor.php">G7 Motorbike</a><br><br>
-                        <a href="freight.php">G7 Freight</a><br><br>
-                        <a href="business.php">G7 for Business</a><br><br>
+                        <a href="taxi.php">G9 Taxi</a><br><br>
+                        <a href="motor.php">G9 Motorbike</a><br><br>
+                        <a href="freight.php">G9 Freight</a><br><br>
+                        <a href="business.php">G9 for Business</a><br><br>
                     </div>
                 </section>
             </div>
@@ -175,7 +175,7 @@
                 <section class="column">
                     <div class="tf3">
                         <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
-                        G7 GROUP © 2018 Designed by Gruppe Neun.</p>
+                        G9 GROUP © 2018 Designed by Group Nine.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
                         <p><a href="privacy.php">Privacy</a>

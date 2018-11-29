@@ -28,7 +28,7 @@ if (!isset($_SESSION['username'])){
                         </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../index.php">G7 GROUP</a>
+                                <a href="../index.php">G9 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php#Service">Service</a>
@@ -59,7 +59,7 @@ if (!isset($_SESSION['username'])){
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="helpcentre.php">Help Centre</a>
+                                <a href="../helpcentre/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -83,11 +83,11 @@ if (!isset($_SESSION['username'])){
                                 they started ranting about how hard it was to get a taxi.</p>
                                 <p>But afterwards, they did something uncommon.</p>
                                 <p>They decided to solve the problem. They started us, 
-                                G7 (then MyTeksi). Pretty soon, our simple goal had transformed into something 
+                                G9 (then MyTeksi). Pretty soon, our simple goal had transformed into something 
                                 bigger – to make Southeast Asia a better place.</p>
                             </div>
                             <div style="margin-left: 5%">
-                                <p>Today, G7 is present in eight countries across the region. 
+                                <p>Today, G9 is present in eight countries across the region. 
                                 And countless people like you, use our services every day.</p>
                                 <p>But you are more than just a “number” to us. Like you, we too are Malaysians, Singaporeans, Indonesians, Thais, Vietnamese, Cambodians, Filipinos 
                                 and Myanmar people. You are our neighbours. 
@@ -106,7 +106,7 @@ if (!isset($_SESSION['username'])){
                                 </div>
                                 <div style="flex-grow: 3; margin-left: 2%;">
                                     <p>As one of the fastest growing regions in the world, 
-                                    it’s easy to take progress for granted. Not so at G7. 
+                                    it’s easy to take progress for granted. Not so at G9. 
                                     We understand your needs don’t just stop at getting a ride.</p>
                                 </div>
                             </section>
@@ -232,7 +232,7 @@ if (!isset($_SESSION['username'])){
                                     <p>See a problem. Come up with the solution. 
                                     If only it was that simple.</p>
                                            
-                                    <p>At G7, we have always tried to solve real world transportation problems. 
+                                    <p>At G9, we have always tried to solve real world transportation problems. 
                                     But even from the very beginning, we realised just finding 
                                     the solution is not enough. To actually bring them to life, requires more.</p>
 
@@ -250,7 +250,7 @@ if (!isset($_SESSION['username'])){
                 <div class="coverabout1">
                     <div class="coveraboutcontent1">
                         <div class="coverabouttext1">
-                            <h1>G7 in a nutshell</h1>
+                            <h1>G9 in a nutshell</h1>
                             <p>The goals we’ve set for ourselves aren’t easy to achieve. 
                             But we believe one day soon, every single person in 
                             Southeast Asia<br> will be able to travel safely, 
@@ -258,7 +258,7 @@ if (!isset($_SESSION['username'])){
                             and to tea with a few friends.</p>
                             <p>With every single day that passes, we’re more certain of it. 
                             Because we have you to help get us there. That’s 
-                            what G7 is<br> really about. Bringing people 
+                            what G9 is<br> really about. Bringing people 
                             together to make life better for all.</p>
                             <h3>Forward Together.</h3>
                         </div>
@@ -282,7 +282,7 @@ if (!isset($_SESSION['username'])){
             <div class="footercontain2">
                 <section class="column">
                     <div class="tf3" style="flex-grow: 2;">
-                        <h1>G7 GROUP</h1>
+                        <h1>G9 GROUP</h1>
                         <p>Somewhere in Vietnam.</p>
                     </div>
                     <div class="tf3 texta_many">
@@ -294,10 +294,10 @@ if (!isset($_SESSION['username'])){
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="../services/taxi.php">G7 Taxi</a><br><br>
-                        <a href="../services/motor.php">G7 Motorbike</a><br><br>
-                        <a href="../services/freight.php">G7 Freight</a><br><br>
-                        <a href="../services/business.php">G7 for Business</a><br><br>
+                        <a href="../services/taxi.php">G9 Taxi</a><br><br>
+                        <a href="../services/motor.php">G9 Motorbike</a><br><br>
+                        <a href="../services/freight.php">G9 Freight</a><br><br>
+                        <a href="../services/business.php">G9 for Business</a><br><br>
                     </div>
                 </section>
             </div>
@@ -305,7 +305,7 @@ if (!isset($_SESSION['username'])){
                 <section class="column">
                     <div class="tf3">
                         <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
-                        G7 GROUP © 2018 Designed by Gruppe Neun.</p>
+                        G9 GROUP © 2018 Designed by Group Nine.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
                         <p><a href="privacy.php">Privacy</a>

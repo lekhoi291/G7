@@ -1,6 +1,6 @@
 <html>
 <head>
-        <title>G7 Taxi</title>
+        <title>G9 Taxi</title>
         <link rel="stylesheet" href="../css/main.css" type="text/css">
         <link rel="stylesheet" href="../css/header.css" type="text/css">
         <link rel="stylesheet" href="../css/mainbody.css" type="text/css">
@@ -23,7 +23,7 @@
                         </label>
                         <ul>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../index.php">G7 GROUP</a>
+                                <a href="../index.php">G9 GROUP</a>
                             </li>
                             <li style="border-right: 1px solid rgba(44, 44, 44, 0.3);">
                                 <a href="../index.php#Service">Service</a>
@@ -54,7 +54,7 @@
                                 </li>
                             <?php endif;?>
                             <li style="float: right; border-left: 1px solid rgba(44, 44, 44, 0.3);">
-                                <a href="../about/helpcentre.php">Help Centre</a>
+                                <a href="../helpcentre/helpcentre.php">Help Centre</a>
                             </li>
                         </ul>
                     </div>
@@ -65,7 +65,7 @@
                 <div class="covertaxi">
                     <div class="coveraboutcontent1">
                         <div class="covertext" >
-                            <h1>G7 Taxi</h1>
+                            <h1>G9 Taxi</h1>
                             <p>Our largest pool of taxi fleets in Vietnam that<br>
                             give you the freedom to travel from almost<br>
                             anywhere, at anytime.</p>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="mainbody">
                 <div class="bodycontain1 texttaxi1">
-                    <h1>Why G7 Taxi?</h1>
+                    <h1>Why G9 Taxi?</h1>
                     <div class="containtaxi1 texttaxi2">
                         <div class="aboutcontain1">
                             <img src="../img/clock.png">
@@ -131,7 +131,7 @@
                             <input id="tab-3" type="checkbox" name="tabs">
                             <label for="tab-3">Why is the fare on the app different from that on the taxi’s calculation?</label>
                             <div class="tab-content">
-                                <p>When you use G7’s service, your taxi fare is 
+                                <p>When you use G9’s service, your taxi fare is 
                                 based on the taxi’s calculation system (meaning 
                                 that you are probably using Mai Linh taxi and will 
                                 pay Mai Linh taxi’ fare). The 
@@ -159,7 +159,7 @@
             <div class="footercontain2">
                 <section class="column">
                     <div class="tf3" style="flex-grow: 2;">
-                        <h1>G7 GROUP</h1>
+                        <h1>G9 GROUP</h1>
                         <p>Somewhere in Vietnam.</p>
                     </div>
                     <div class="tf3 texta_many">
@@ -171,10 +171,10 @@
                     </div>
                     <div class="texta_many tf3">
                         <h1>SERVICES</h1>
-                        <a href="taxi.php">G7 Taxi</a><br><br>
-                        <a href="motor.php">G7 Motorbike</a><br><br>
-                        <a href="freight.php">G7 Freight</a><br><br>
-                        <a href="business.php">G7 for Business</a><br><br>
+                        <a href="taxi.php">G9 Taxi</a><br><br>
+                        <a href="motor.php">G9 Motorbike</a><br><br>
+                        <a href="freight.php">G9 Freight</a><br><br>
+                        <a href="business.php">G9 for Business</a><br><br>
                     </div>
                 </section>
             </div>
@@ -182,7 +182,7 @@
                 <section class="column">
                     <div class="tf3">
                         <p>Best display on 16: 9 screen, latest Chrome browser, not supported on mobile.<br>
-                        G7 GROUP © 2018 Designed by Gruppe Neun.</p>
+                        G9 GROUP © 2018 Designed by Group Nine.</p>
                     </div>
                     <div class="texta_line textspacingend tf3">
                         <p><a href="privacy.php">Privacy</a>
